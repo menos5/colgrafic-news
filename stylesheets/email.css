@@ -19,13 +19,14 @@ body {
 	-webkit-text-size-adjust:none; 
 	width: 100%!important; 
 	height: 100%;
+	color: #222222;
 }
 
 
 /* ------------------------------------- 
 		ELEMENTS 
 ------------------------------------- */
-a { color: #2BA6CB;}
+a { color: #cc0000;}
 
 .btn {
 	text-decoration:none;
@@ -199,6 +200,16 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 .social .column {
 	width: 280px;
 	min-width: 279px;
+	float:left;
+}
+.social .column1 {
+	width: 30%;
+	min-width: 199px;
+	float:left;
+}
+.social .column2 {
+	width: 63%;
+	min-width: 219px;
 	float:left;
 }
 
